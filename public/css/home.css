@@ -1,0 +1,241 @@
+/* header */
+
+header{
+    background-color: var(--colorAmarillo);
+    font-size: 12px;
+    font-family: var(--fontFamily);
+}
+
+header img{
+    width: 35%;
+    padding: 30px 0 15px 25px; 
+}
+
+header .center{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header div a.search{
+    display: none;
+    background-color: white;
+    color: var(--colorGrisOscuro);
+    border: 1px solid var(--colorGrisOscuro);
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: var(--fontFamily);
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding: 1px 20px 1px 2px;
+}
+
+header div a.lupa{
+    display: none;
+    background-color: var(--colorGrisClaro);
+    color: black;
+    padding: 2px;
+    border: 1px solid var(--colorGrisOscuro);
+    border-radius: 1px;
+}
+
+header nav ul li a{
+    display: none;
+    display: block;
+    color: black;
+} 
+
+header nav ul li{
+    display: none;
+    margin-left: 1.4%;
+    padding: 20px, 10px;
+}
+
+header div a.hand{
+    color: black;
+        
+}
+
+header div a.burger{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: var(--colorCeleste);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+     
+}
+
+/* main */ 
+
+
+main{
+    background-color: var(--colorGrisClaro);
+}
+
+main section article.banner img{
+    display: none;
+    
+       
+}
+
+main section h2{
+    font-family: var(--fontFamily);
+    font-size: 24px;
+    color: var(--colorGrisOscuro);
+    text-align: center;
+    padding: 20px 0;
+}
+
+main section article.producto{
+    text-align: center;
+}
+
+main section article img.cafetera{
+    width: 90%;  
+    
+}
+
+main section article .truck{
+    display: inline-block;
+    color: green;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin: 15px auto 0;
+    width: 40px;
+    height: 40px;
+    
+}
+
+main section article .data{
+    display: inline-block;
+    background-color: white;
+    width: 90%;
+    border-top: solid 1px var(--colorGrisClaro);    
+    padding-bottom: 15px;
+}
+
+main section article .data .descripcion{
+    display: none;
+}
+
+main section article img.macbook{
+    width: 90%;
+    padding-top: 10px;
+}
+
+main section article img.celular{
+    width: 90%;
+    padding-top: 10px;
+        
+}
+
+main section article img.tv{
+    width: 90%;
+    padding-top: 10px;
+}
+
+main section article p{
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    text-align: center;
+}
+
+main section article p.descuento{
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    text-align: center;
+}
+
+main section {
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: white;    
+}
+
+footer section.info{
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 12px;
+    color: var(--colorGrisOscuro);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+footer section article h4{
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+footer section article i{
+    display: inline-block;
+    width: 100%;
+    height: 150%;
+    color: var(--colorCeleste);
+
+}
+
+footer section article p.copyright{
+    padding-top: 20px;
+    
+}
+
+/* tablet */
+@media (min-width: 481px) {
+
+    /* header */
+    header div a.search{
+        display: initial;
+        
+    }
+
+    header div a.lupa{
+        display: initial;
+        
+    }
+    
+    header nav ul li a{
+        display: initial;
+       
+    }
+
+    header nav ul li{
+        display: initial;
+        display: block;
+        
+    }
+
+    header div a.burger{
+        display: none;
+    }
+
+    /* main */
+    main section article .data {
+        box-shadow: 0px 0px 10px  rgb(100, 100, 100);
+    }
+
+    main section article .data .descripcion{
+        display: initial;
+    }
+
+    main section article.banner img{
+        display: block;
+        width: 100%;     
+    } 
+    
+}
+
+/* desktop */
+@media (min-width:769px){
+
+}
